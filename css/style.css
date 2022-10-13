@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms_background {
+    background-size: cover;
+    background-position: top;
+}
+
+.ms_dropdown-toggle::after {
+    width: 10px;
+    display: inline-block;
+    margin-left: 0.255em;
+    content: url("../img/chevron-down-solid.svg");
+    vertical-align: -0.1em;
+}
+
+.ms_banner-logo {
+    width: 50%;
+}
+
+.ms_bg-orange {
+    background-color: #CD3D0F;
+}
+
+.ms_bg-blue {
+    background-color: #2D64E6;
+}
+
+.ms_bg-grey {
+    background-color: #D9DADC;
+}
+
+.ms_bg-darkgrey {
+    background-color: #363636;
+}
+
+.ms_bg-white {
+    background-color: #fff;
+}
+
+.ms_rounded {
+    border-radius: 20px;
+}
+
+.ms_active {
+    border-color: #0172CE !important;
+}
+
+.ms_top-text {
+    font-size: .4em;
+}
+
+.ms_position-reset {
+    position: initial;
+}
+
+button:hover {
+    box-shadow: 0px 0px 0px 3px rgb(255,255,255) inset;
+}
+
+button.ms_bg-white:hover {
+    box-shadow: 0px 0px 0px 3px rgb(0,0,0) inset;
+}
+
+#ms_header-top {
+    height: 30px;
+    background-color: black;
+}
+
+#ms_header-bottom .nav-item:hover .ms_dropdown-toggle::after {
+    content: url("../img/chevron-down-solid-hover.svg");
+}
+
+#ms_header-bottom .nav-item:hover > a {
+    color: #0070D1 !important;
+}
+
+#ms_search {
+    width: 1.5rem;
+}
+
+#ms_jumbo {
+    margin-top: 110px;
+}
+
+#ms_jumbo .ms_background {
+    background-image: url("../img/jumbo-bg.png");
+}
+
+#ms_jumbo .ms_padding {
+    padding-top: 200px;
+}
+
+#ms_jumbo-games img {
+    transition: all .3s;
+}
+
+#ms_jumbo-games img:hover {
+    transform: translate(0px, -10px);
+}
+
+#ms_new-console p,
+#ms_pre-console p,
+#ms_ps-store p {
+    color: grey;
+}
+
+#ms_ps-store img,
+#ms_social img {
+    transition: all .3s;
+}
+
+#ms_ps-store img:hover,
+#ms_social img:hover {
+    transform: scale(1.02);
+}
+
+
+#ms_new-device .col {
+    transition: all .3s;
+}
+
+#ms_new-device .col:hover {
+    opacity: 1 !important;
+}
+
+#ms_new-games {
+    background-color: #1F1F1F;
+}
+
+#ms_new-games .ms_background {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+#ms_ps-plus {
+    background-color: #BEBCBB;
+}
+
+#ms_ps-now {
+    background-color: #161C3B;
+}
+
+footer {
+    background-color: #00439C;
+}
+
+#ms_footer-top a:hover {
+    text-decoration: underline !important;
+}
+
+#ms_globe {
+    height: 1.2rem;
+}
+
+#ms_sie-logo {
+    max-width: 130px;
+}
+
+.debug .ms_box {
+    height: 50px;
+    background-color: tomato;
+    border: 1px solid black;
+}
